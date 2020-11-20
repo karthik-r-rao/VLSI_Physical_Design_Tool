@@ -9,15 +9,17 @@ import networkx as nx
 
 def get_graph(filepath):
     """
-        getGraph(filename)
-        
-        Parameters
-        ----------
-        filepath : PATH to netlist file in .isc format.
-        
-        Returns
-        ----------
-        g : graph corresponding to the input netlist.
+
+    Parameters
+    ----------
+    filepath : str.
+        PATH to netlist file in .isc format.
+
+    Returns
+    -------
+    g : Networkx undirected graph.
+        Graph corresponding to the input netlist.
+
     """
     
     f = open(filepath, 'r')

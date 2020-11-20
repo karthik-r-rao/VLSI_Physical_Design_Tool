@@ -9,11 +9,16 @@ import networkx as nx
 
 def write_graph_info(g):
     """
-        write_graph_info(g)
-        
-        Parameters
-        ----------
-        g : Graph of netlist.
+
+    Parameters
+    ----------
+    g : Networkx undirected graph.
+        Graph of the netlist.
+
+    Returns
+    -------
+    None.
+
     """
     
     nodes = list(g.nodes(data=False))
