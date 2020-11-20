@@ -18,7 +18,6 @@ def construct_graph(nodes, edges):
         
         Returns
         ----------
-        
         g : Networkx undirected graph. 
     """
 
