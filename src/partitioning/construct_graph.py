@@ -22,7 +22,7 @@ def construct_graph(nodes, edges):
     -------
     g : Networkx undirected graph.
         Constructed graph.
-
+        
     """
 
     g = nx.Graph()
