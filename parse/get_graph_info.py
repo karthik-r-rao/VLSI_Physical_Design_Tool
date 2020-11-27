@@ -8,7 +8,7 @@ Create a graph from a netlist in ISCAS-85 format.
 import networkx as nx
 from write_graph_info import *
 
-def get_graph_info(infile, outfile):
+def get_graph_info(infile, outdir):
     """
 
     Parameters
@@ -92,4 +92,4 @@ def get_graph_info(infile, outfile):
             w[temp[0]] = 5
             h[temp[0]] = 5
             
-    write_graph_info(g, w, h, inputs)
+    write_graph_info(outdir, g, w, h, inputs)
