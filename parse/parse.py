@@ -2,7 +2,8 @@
 @author: karthikrao
 
 Program to get graph from netlist.
-
+Written specifically for adder.isc. 
+Might not work for other netlists.
 """
 
 import networkx as nx
